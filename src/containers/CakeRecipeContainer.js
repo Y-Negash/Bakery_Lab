@@ -55,11 +55,12 @@ const CakeRecipeContainer = () => {
    return ( 
         <>
         <h2>Cake Collection</h2>
-        <Recipe recipe={recipes[0]}/>
-        <Recipe recipe={recipes[1]}/>
-        <Recipe recipe={recipes[2]}/>
-        <p>Average rating of all cakes: {average} </p>
-        </>
+           <Recipe recipe={recipes[0]} />
+           <Recipe recipe={recipes[1]} />
+           <Recipe recipe={recipes[2]} />
+           <p>Average rating of all cakes: {average} </p>
+       </>
+        
 
      );
 }
