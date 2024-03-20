@@ -3,10 +3,24 @@
     color: #F2FDFF;
  }
 
+ div.list-container {
+    text-align: center;
+ }
+
  ul {
     color: #F2FDFF;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
     list-style-type: none;
+    margin-top: 2px;
+ }
+
+ div.recipe {
+   display: inline-block;
+   padding: 100px;
+   margin-inline-start: 40px;
+   
+   
  }
 
  p {
@@ -24,4 +38,9 @@ body {
     font-size: x-large;
 }
 
+
+button {
+   display: block;
+   margin: auto;
+}
 

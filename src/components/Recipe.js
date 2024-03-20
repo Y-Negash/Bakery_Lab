@@ -9,12 +9,16 @@ const Recipe = ({recipe, cakeSold, onButtonClick}) => {
 
     return ( 
        <>
+       <div className='recipe'>
         <h3>Cake name: {recipe.cakeName}</h3>
-        <h3>Ingredients: </h3>
-        <ul>{ingredient}</ul>
+        <div className='list-container'>
+          <h3>Ingredients:</h3>
+          <ul>{ingredient}</ul>
+        </div>
         <p>£{recipe.price}</p>
         <p>{recipe.rating} stars</p>
         <button onClick={handleSellCakeButtonClick}>Sell Cake!</button>
+        </div>
        </>
         
      );
