@@ -57,7 +57,7 @@ const CakeRecipeContainer = () => {
         }
     ] 
 
-    
+  
    const average = recipes[0].price + recipes[1].price + recipes[2].price;
    
    return ( 
