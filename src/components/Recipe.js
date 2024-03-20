@@ -1,9 +1,11 @@
 const Recipe = ({recipe}) => {
     
+    const ingredient = recipe.ingredients.map(ingredient => <li>{ingredient}</li>)
     return ( 
        <>
         <h3>Cake name: {recipe.cakeName}</h3>
-        <p>Ingredients: {recipe.ingredients}</p>
+        <h3>Ingredients: </h3>
+        <ul>{ingredient}</ul>
         <p>Price: £{recipe.price}</p>
         <p>Rating: {recipe.rating} stars</p>
        </>
